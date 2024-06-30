@@ -52,7 +52,7 @@ body{
 
 #main-header{
   display:flex;
-  background-color: #212b38;
+  background-color: #27213c;
   color: white;
   justify-content: space-between;
   padding: 1.5em;
@@ -94,5 +94,13 @@ a:hover{
 }
 
 #about-me{
+  display: flex;
   padding: 4em;
+  background-color: #d3f6db;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+#about-me .about{
+  width: 300px;
 }
