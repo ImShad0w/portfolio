@@ -84,9 +84,9 @@ a:hover{
 }
 
 #hero-section{
+  color: white;
   display: flex;
-  background: rgb(114,110,255);
-  background: radial-gradient(circle, rgba(114,110,255,1) 45%, rgba(90,255,231,1) 100%); 
+  background-color: #27213c;
   height: 800px;
   width: 100%;
   justify-content: center;
@@ -95,10 +95,19 @@ a:hover{
   text-align: center;
 }
 
+.about-title{
+  color:white;
+  display:flex;
+  padding: 2em;
+  justify-content: center;
+  background-color: #27213c;
+}
+
 #about-me{
   display: flex;
+  color:white;
   padding: 4em;
-  background-color: #d3f6db;
+  background-color: #27213c;
   justify-content: center;
   text-align: center;
 }
@@ -107,14 +116,14 @@ a:hover{
   width: 400px;
   margin: 0 50px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 20px;
 }
 #about-me .hobbies{
   width: 400px;
   margin: 0 50px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 20px;
 
 }
@@ -123,6 +132,60 @@ a:hover{
   width: 400px;
   margin: 0 50px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 20px;
+}
+
+#skills{
+  background-color: #27213c;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 4em;
+}
+
+#skills img{
+  height: 100px;
+  width: 100px;
+}
+.skills-title{
+  background-color: #27213c;
+  color:white;
+  text-align: center;
+  padding: 2em;
+}
+
+.work-title{
+  display: flex;
+  background-color: #27213c;
+  color:white;
+  padding: 4em;
+  justify-content: center;
+}
+
+#projects{
+  display: flex;
+  background-color: #27213c;
+  justify-content: space-around;
+  color:white;
+  text-align: center;
+  padding: 2em;
+}
+
+#projects .project{
+  border: 1px solid white;
+  width: 450px;
+  height: 300px;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+.project button{
+  background-color: #27213c;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  color:white;
+  margin:30px;
 }
