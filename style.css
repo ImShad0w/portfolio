@@ -19,6 +19,8 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
 }
 /*
   5. Improve media defaults
@@ -98,9 +100,29 @@ a:hover{
   padding: 4em;
   background-color: #d3f6db;
   justify-content: center;
-  justify-content: space-around;
+  text-align: center;
 }
 
 #about-me .about{
-  width: 300px;
+  width: 400px;
+  margin: 0 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 20px;
+}
+#about-me .hobbies{
+  width: 400px;
+  margin: 0 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 20px;
+
+}
+
+#about-me .practice{
+  width: 400px;
+  margin: 0 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 20px;
 }
