@@ -21,6 +21,8 @@ body {
   -webkit-font-smoothing: antialiased;
   display: flex;
   flex-direction: column;
+  background-color: #27213c;
+  color: white;
 }
 /*
   5. Improve media defaults
@@ -54,7 +56,6 @@ body{
 
 #main-header{
   display:flex;
-  background-color: #27213c;
   color: white;
   justify-content: space-between;
   padding: 1.5em;
@@ -86,7 +87,6 @@ a:hover{
 #hero-section{
   color: white;
   display: flex;
-  background-color: #27213c;
   height: 800px;
   width: 100%;
   justify-content: center;
@@ -98,16 +98,15 @@ a:hover{
 .about-title{
   color:white;
   display:flex;
-  padding: 2em;
+  margin: 32px;
   justify-content: center;
-  background-color: #27213c;
+  font-size: 2.5em;
 }
 
 #about-me{
   display: flex;
   color:white;
-  padding: 4em;
-  background-color: #27213c;
+  margin: 64px;
   justify-content: center;
   text-align: center;
 }
@@ -137,12 +136,11 @@ a:hover{
 }
 
 #skills{
-  background-color: #27213c;
   color:white;
   display: flex;
   justify-content: space-around;
   text-align: center;
-  padding: 4em;
+  margin: 30px;
 }
 
 #skills img{
@@ -150,18 +148,19 @@ a:hover{
   width: 100px;
 }
 .skills-title{
-  background-color: #27213c;
   color:white;
   text-align: center;
-  padding: 2em;
+  margin: 60px;
+  font-size: 2.5em;
 }
 
 .work-title{
   display: flex;
   background-color: #27213c;
   color:white;
-  padding: 4em;
+  margin: 65px;
   justify-content: center;
+  font-size: 2.5em;
 }
 
 #projects{
@@ -170,14 +169,14 @@ a:hover{
   justify-content: space-around;
   color:white;
   text-align: center;
-  padding: 2em;
+  margin: 65px;
 }
 
 #projects .project{
   border: 1px solid white;
   width: 450px;
   height: 300px;
-  padding: 1em;
+  padding: 12px;
   border-radius: 20px;
 }
 
@@ -185,7 +184,44 @@ a:hover{
   background-color: #27213c;
   border-radius: 20px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 1.5em;
   color:white;
   margin:30px;
 }
+
+.contact-title{
+  background-color: #27213c;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 50px;
+  font-size: 2.5em;
+}
+#contact-info{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #27213c;
+  margin: 32px;
+  color: white;
+}
+
+#contact-info .container{
+  justify-content: center;
+  font-size: 1.5em; 
+  overflow-wrap: wrap;
+  width: 600px; 
+}
+#contact-info i{
+  margin: 10px;
+  font-size: 2.5em;
+}
+
+#main-footer{
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  margin: 32px;
+}
+
+
