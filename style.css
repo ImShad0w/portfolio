@@ -75,13 +75,18 @@ a{
 
 a:hover{
   color:aqua
+  transition::wq
 }
 
 /* This is for the sticky header*/
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
+  background-color: #2b2442; 
+  box-shadow: 1px 16px 5px 0px rgba(0,0,0,0.20);
+  -webkit-box-shadow: 1px 16px 5px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow: 1px 16px 5px 0px rgba(0,0,0,0.20);
 }
 
 #hero-section{
