@@ -59,12 +59,9 @@ body{
 
 #main-header{
   display:flex;
-<<<<<<< HEAD
   color: var(--main-color);
-=======
   position: sticky;
   color: white;
->>>>>>> 02a9c183ca6f4b6a89c1e19a9716cd4854da01bf
   justify-content: space-between;
   padding: 1.5em;
   font-size: 1.5em;
@@ -83,12 +80,11 @@ a{
 
 a:hover{
   color:aqua
-  transition::wq
 }
 
 /* This is for the sticky header*/
 .sticky {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   background-color: #2b2442; 
@@ -125,23 +121,7 @@ a:hover{
   text-align: center;
 }
 
-#about-me .about{
-  width: 400px;
-  margin: 0 50px;
-  border-radius: 10px;
-  border: 1px solid white;
-  padding: 20px;
-}
-#about-me .hobbies{
-  width: 400px;
-  margin: 0 50px;
-  border-radius: 10px;
-  border: 1px solid white;
-  padding: 20px;
-
-}
-
-#about-me .practice{
+#about-me > div{
   width: 400px;
   margin: 0 50px;
   border-radius: 10px;
