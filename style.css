@@ -56,6 +56,7 @@ body{
 
 #main-header{
   display:flex;
+  position: sticky;
   color: white;
   justify-content: space-between;
   padding: 1.5em;
